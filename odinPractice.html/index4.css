@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #b49292;
+}
+header{
+    background-color: rgb(174, 218, 218);
+    padding-top: 30px;
+}
+.container{
+   width: 80%;
+}
+header li{
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+header #banner{
+    float: left;
+    padding-top: 30px;
+}
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+header ul{
+    float: right;
+}
+.clearfix{
+    clear: both;
+
+}
+
+
+

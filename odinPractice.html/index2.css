@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+}
+.banner-container{
+    background-color: #e0e0fe;
+}
+.heading-main{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+.first-cloud{
+    position: absolute;
+    right: 0;
+}
+.second-cloud{
+    position: absolute;
+    left: 0;
+}
+.personal-pic{
+    height: 300px;
+    width: 300px;
+}
+

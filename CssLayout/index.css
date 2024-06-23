@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    margin-top: 40px;
+}
+.brand-logo{
+    float: left;
+}
+.nav-web{
+    float: right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding: 10px 20px;
+}
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: block;
+
+}
+.section-1::after{
+    width: 50%;
+    float: left;
+
+}
+

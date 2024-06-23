@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid palevioletred;
+    width: 550px;
+    background-color: aquamarine;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid palevioletred;
+    width: 300px;
+    background-color: aquamarine;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid palevioletred;
+    width: 550px;
+    background-color: aquamarine;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid palevioletred;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+
+.flex1{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid red;
+    background-color: blue;
+}

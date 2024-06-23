@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Assignment1</title>
+    <style>
+        body{
+            margin:0;
+            padding: 50px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px; 
+            grid-template-rows: 100px 100px 100px 100px 100px;
+            grid-template-areas:"it-1 it-1 it-2 it-3"
+            "it-1 it-1 it-2 it-3"
+            "it-1 it-1 it-4 it-5" ;
+        }
+        .vivek{
+            border:1px solid red;
+            font-size:36px;
+            text-align: center;
+        }
+        .it-1{
+            grid-row-start:1;
+            grid-column-start: 1;
+            grid-row-end: span 2;
+            grid-column-end: span 2;
+            ;
+        }
+        .it-2{
+            grid-row-start:2;
+            grid-column-start: 2;
+            grid-row-end: span 1;
+            grid-column-end: span 1;
+            ;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="vivek it-1">1</div>
+        <div class="vivek it-2">2</div>
+        <div class="vivek it-3">3</div>
+        <div class="vivek it-4">4</div>
+        <div class="vivek it-5">5</div>
+
+    </div>
+    
+</body>
+</html>

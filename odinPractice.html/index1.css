@@ -1,0 +1,58 @@
+body{
+    background-color: lightcyan;
+
+}
+.container{
+    background-color: lightblue;
+    padding: 10px;
+}
+.caontainer2{
+    background-color: aquamarine;
+    padding: 10px;
+}
+h3{
+    background-color: lightyellow;
+}
+p{
+    color: brown;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+.h1,h2{
+    color: darkblue;
+}
+#second-p{
+    color: darkmagenta;
+}
+.catatories3 h4{
+    color: blueviolet;
+    text-align: center;
+}
+.catatories3{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.catatories3 ul{
+    padding: 0px;
+    list-style: none;
+}
+.catatories3 a {
+    text-decoration: none;
+    color: black;
+} 
+.catatories3 a:hover {
+    color: red;
+}
+.catatories3 li {
+    padding: 3px 0;
+    border-bottom: 1px dotted lightslategray;
+}
+.footer-text{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+

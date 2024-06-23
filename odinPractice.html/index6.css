@@ -1,0 +1,26 @@
+/* Media query*/
+/* .container{
+    width: 100%;
+    background-color: green; */
+    @media only screen and (min-width:360px) and (max-width:1200px){
+
+    }
+
+@media only screen and (min-width:360px){
+    .container{
+        width: 100%;
+        background-color: rgb(168, 204, 168);
+    }
+}
+@media only screen and (min-width:600px){
+    .container{
+        width: 100%;
+        background-color: rgb(128, 0, 0);
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+        background-color: rgb(90, 128, 0);
+    }
+}

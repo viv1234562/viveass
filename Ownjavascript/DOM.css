@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+}
+
+
+/* 
+.heading{
+    color: brown;
+    background-color: yellow;
+}
+
+button{
+    background-color: aqua;
+    color: white;
+} */
+
+/* .box{
+  background-color: aquamarine;
+  height: 60px ;
+  width: 40px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid yellow;
+  text-align: center;
+} */
+
+/* // 2nd class// */
+
+#box{
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+    color: beige;
+    border: 1px solid black;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
